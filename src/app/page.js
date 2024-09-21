@@ -2,7 +2,7 @@ import { fetchPages } from "@/lib/notion";
 import Navbar from "@/components/Navbar";
 import Header from "@/components/Header";
 import Link from "next/link";
-import { CldImage } from 'next-cloudinary';
+import Image from 'next/image';
 
 export default async function Page() {
   const response = await fetchPages();
@@ -44,7 +44,7 @@ export default async function Page() {
                 <td>
                   <Link href={`/posts/${slug}`}>
                     {coverImageUrl && (
-                      <img
+                      <Image
                         src={coverImageUrl} // Using a regular img tag
                         width="100"
                         height="150"
