@@ -16,7 +16,7 @@ export default async function Page() {
         <div style={{ textAlign: 'center', marginTop: '2rem' }}>
           <h2>Bookshelf is Empty</h2>
           <p>
-            Looks like you're out of books to review. Time to go hunting for your next favorite read!
+            Looks like you&apos;re out of books to review. Time to go hunting for your next favorite read!
           </p>
         </div>
       </div>
