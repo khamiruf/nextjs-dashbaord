@@ -1,0 +1,114 @@
+// src/styles/globals.scss
+
+// Import Notion theme
+@import '~@notion-render/client/sass/theme.scss';
+
+// Your custom styles can go here
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-geist-sans), sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    font-size: 2rem; // Adjust size as needed
+}
+
+p {
+    font-size: 1rem; // Smaller than h1
+    line-height: 1.2; // Adjust line height if necessary
+    color: #666; // Optional: Change the color for better contrast
+}
+
+.reviews {
+    p {
+        font-size: 1rem;
+        /* Adjust size as needed */
+        line-height: 1.6;
+        /* Increased line-height for better readability */
+        margin-bottom: 1.5rem;
+        /* Spacing between paragraphs */
+        color: #666;
+        /* Change to your preferred color */
+        padding-left: 1rem;
+    }
+}
+
+/* Style for bold text to look like headers */
+.notion-text-bold {
+    font-size: 1.5rem;
+    /* Increase the size */
+    font-weight: bold;
+    /* Ensure it's bold */
+    margin: 1.5rem 0;
+    /* Add spacing above and below */
+    color: #000000;
+    /* Optional: Change color for emphasis */
+}
+
+h2,
+h3 {
+    margin-bottom: 1rem;
+}
+
+nav {
+    background: #333;
+    color: white;
+    padding: 1rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffa500; // Change to your desired hover color
+}
+
+header {
+    text-align: center;
+    margin: 2rem 0;
+
+    h1,
+    p {
+        text-align: left;
+        margin: auto;
+        padding-left: 2.5rem;
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; // Makes borders collapse into a single border
+    margin: 2rem 0; // Adds some margin for spacing
+
+    td {
+        padding: 1rem; // Adds padding for spacing within cells
+        text-align: left; // Aligns text to the left
+        border-bottom: 1px solid #ddd; // Adds a bottom border for separation
+    }
+
+    a {
+        color: #0070f3;
+    }
+
+    a:hover {
+        color: #ffa500;
+    }
+}
+
+// Additional styles...

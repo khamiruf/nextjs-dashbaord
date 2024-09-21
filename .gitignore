@@ -34,3 +34,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Optional: IDE or editor specific files
+.DS_Store
+.vscode/
+.idea/
